@@ -28,9 +28,9 @@ const getData = async (event) => {
         alert("please Enter The City Name");
         return;
     }
-    const city  = inputeBox.value;
+    const city = inputeBox.value;
 
-// Fetch Details 
+    // Fetch Details 
 
 
     const fetchData = await fetch(
@@ -42,4 +42,28 @@ const getData = async (event) => {
     data = orgData;
     console.log(data);
 
-}
+
+
+    // Displaying the data in HTML
+    headTime.innerHTML = data.location.localtime;
+    cityName.innerHTML = data.location.name;
+    countryName.innerText = data.location.country;
+    stateName.innerHTML = data.location.region;
+    dateTime.innerHTML = data.location.localtime;
+    temprature.innerHTML = data.current.temp_c;
+    weatherStatus.innerHTML = data.current.condition.text;
+    logoImage.src = data.current.condition.icon;
+    humidity.innerHTML = data.current.humidity;
+    windSpeed.innerHTML = data.current.wind_kph;
+    rain.innerHTML = data.current.cloud;
+    logoImage.src = data.current.condition.icon;
+
+
+
+
+    highTemp.innerHTML = foreCastOutput.forecast.forecastday[1].day.maxtemp_c;
+    lowTemp.innerHTML = foreCastOutput.forecast.forecastday[1].day.mintemp_c;
+    sunRise.innerHTML = foreCastOutput.forecast.forecastday[3].astro.sunrise;
+    sunset.innerHTML = foreCastOutput.forecast.forecastday[3].astro.sunset;
+
+};
