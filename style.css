@@ -20,3 +20,15 @@ nav {
   align-items: center;
   margin-top: 50px;
 }
+form {
+  flex-basis: 60%;
+  display: flex;
+}
+
+.time-box {
+  flex-basis: 10%;
+}
+
+.time-box h1 {
+  text-align: left;
+}
