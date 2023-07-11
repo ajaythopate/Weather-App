@@ -12,13 +12,16 @@
 
 <body>
     <main>
+        <nav>
+            <form onsubmit="getData(event)" class="searchData">
+                <input id="inputBox" type="text" placeholder="Enter the city name" class="search-bx" />
         
         <button class="Search-btn">Search</button>
-
+</form>
         <div class="time-box">
             <h1 id="current-time">00:00:00</h1>
         </div>
-        
+       </nav> 
         <section class="current-weather">
             <div class="curent-weather-left">
                 <h1 id="city-name">City</h1>

@@ -8,3 +8,7 @@ body{
   background-blend-mode: overlay;
   font-family: "Montserrat", sans-serif;
 }
+main {
+  max-width: 80%;
+  margin: 0 auto;
+}
