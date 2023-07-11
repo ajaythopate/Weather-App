@@ -12,3 +12,11 @@ main {
   max-width: 80%;
   margin: 0 auto;
 }
+
+nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
