@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🌏Weather app  App</title>
+    <title>🌏Weather app App</title>
 </head>
+
 <body>
     <main>
-        <button class="Search-btn">Search</button> 
+        <button class="Search-btn">Search</button>
 
         <div class="time-box">
             <h1 id="current-time">00:00:00</h1>
@@ -23,11 +25,7 @@
                 <p id="timeDate">Day 00 Month</p>
                 <div class="weather-data">
                     <div class="weather-icon">
-                        <img
-                        width="60px"
-                        id="logoImage"
-                        src="./image/weather-app.png"
-                        slt="icon" />
+                        <img width="60px" id="logoImage" src="./image/weather-app.png" slt="icon" />
                     </div>
                     <div class="current-temp">
                         <h1 class="current-tem-style">
@@ -38,12 +36,7 @@
                     <!-- Humidity -->
 
                     <div class="humidity-icon">
-                        <img 
-                        width="50px"
-                        id="logoImage"
-                        src="./image/thermometer.png"
-                        alt="icon"
-                        />
+                        <img width="50px" id="logoImage" src="./image/thermometer.png" alt="icon" />
                     </div>
                     <div class="current-temp">
                         <h1 class="current-tem-style Humidity-txt">
@@ -55,11 +48,19 @@
 
                 <div class="current-weather-right">
                     <div class="row-1">
+
+                        <!-- card 1 -->
                         <div class="current-card-high">
                             <p class="sm-card-text">
                                 <span id="high-tem">00</span><sup>o</sup>
                             </p>
                             <p class="high-tem-txt">High Temp</p>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="current-card">
+                            <p class="sm card text"><span id="Wind">0</span>mph</p>
+                            <p class="high-temp-text">Wind</p>
                         </div>
                     </div>
                 </div>
@@ -67,4 +68,5 @@
         </section>
     </main>
 </body>
+
 </html>
