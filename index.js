@@ -19,3 +19,27 @@ const lowTemp = document.getElementById("low-temp");
 const sunRise = document.getElementById("sunrise");
 const sunset = document.getElementById("sunset");
 
+
+
+
+const getData = async (event) => {
+    event.preventDefault();
+    if (!inputeBox.value) {
+        alert("please Enter The City Name");
+        return;
+    }
+    const city  = inputeBox.value;
+
+// Fetch Details 
+
+
+    const fetchData = await fetch(
+        `http://api.weatherapi.com/v1/current.json?key=5561db968c54476780e172557232502&q=${city}`
+        
+    );
+
+    const orgData = await fetchData.json();
+    data = orgData;
+    console.log(data);
+
+}
