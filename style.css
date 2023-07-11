@@ -32,3 +32,56 @@ form {
 .time-box h1 {
   text-align: left;
 }
+.search-bx {
+  width: 100%;
+  height: 10px;
+  padding: 20px;
+  border-radius: 35px;
+  /* background-color: #e0e8ef00; */
+  /* backdrop-filter: blur(20px); */
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 3px 5px;
+  border: 1px dotted #fbfbfb65;
+  transition: 0.2s;
+  position: relative;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+
+.search-bx:focus {
+  outline: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+ 
+
+  /* background-color: #e5edf5; */
+  /* box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%); */
+}
+/* .search-bx::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  color: #ffffff;
+} */
+
+
+.search-btn {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  color:black;
+  /* background-color: transparent; */
+  border-radius: 25px;
+   border: 1px dotted #fbfbfb65;
+  background-color: rgb(216, 221, 228);
+  cursor: pointer;
+  /* border-bottom: 1px dotted #ffffff; */
+  transition: 0.2s;
+}
+
+#current-time {
+  font-size: 35px;
+  font-weight: 500;
+  color: #ffffff;
+}
