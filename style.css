@@ -18,7 +18,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 90px;
+  margin-left: 120px;
 }
 form {
   flex-basis: 60%;
@@ -37,31 +38,23 @@ form {
   height: 10px;
   padding: 20px;
   border-radius: 35px;
-  /* background-color: #e0e8ef00; */
-  /* backdrop-filter: blur(20px); */
   box-shadow: rgba(0, 0, 0, 0.18) 0px 3px 5px;
-  border: 1px dotted #fbfbfb65;
+  border: 1px;
   transition: 0.2s;
   position: relative;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .search-bx:focus {
   outline: none;
-  color: #ffffff;
-  border: 1px solid #ffffff;
- 
-
-  /* background-color: #e5edf5; */
-  /* box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%); */
-}
-/* .search-bx::placeholder {
+ }
+.search-bx::placeholder {
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
-  color: #ffffff;
-} */
+  color: black;
+}
 
 
 .search-btn {
@@ -71,12 +64,10 @@ form {
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   color:black;
-  /* background-color: transparent; */
   border-radius: 25px;
    border: 1px dotted #fbfbfb65;
   background-color: rgb(216, 221, 228);
   cursor: pointer;
-  /* border-bottom: 1px dotted #ffffff; */
   transition: 0.2s;
 }
 
@@ -85,3 +76,118 @@ form {
   font-weight: 500;
   color: #ffffff;
 }
+
+#coma {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.current-weather-left {
+  flex-basis: 40%;
+  border: 1px ;
+  padding: 0.5px 25px;
+  height: 400px;
+  box-shadow: rgba(19, 17, 17, 0.18) 0px 3px 4px;
+  border-radius: 15px;
+}
+
+
+
+ 
+#city-name,
+#country-name,
+#state-name {
+  display: inline-block;
+  font-size: 25px;
+  line-height: 1.5em;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+#timeDate {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10px;
+} 
+
+
+.weather-data {
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 15px;
+  padding: 50px ;
+}
+
+
+.current-temp-style {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+
+
+#humidity-icon {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#weather-condition {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* .row-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+  margin-top: 1px;
+  margin-left: 20px;
+} */
+
+
+
+/* .row-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  gap: 90px;
+  margin-left: 25px;
+} */
+
+/* .current-card {
+  width: 200px;
+  padding: 34px 25px;
+  backdrop-filter: blur(20px);
+  text-align: center;
+ border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 8px;
+  border: 1px;
+}
+
+.sm-card-txt {
+  font-size: 80px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 10px;
+} */
+
+/* #coma {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 10px;
+} */
+
+ 
