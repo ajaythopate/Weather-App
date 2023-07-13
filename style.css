@@ -146,27 +146,27 @@ form {
   color: #ffffff;
 }
 
-/* .row-1 {
+.row-1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 90px;
   margin-top: 1px;
   margin-left: 20px;
-} */
+}
 
 
 
-/* .row-2 {
+.row-2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
   gap: 90px;
   margin-left: 25px;
-} */
-
-/* .current-card {
+}
+ 
+ .current-card {
   width: 200px;
   padding: 34px 25px;
   backdrop-filter: blur(20px);
@@ -174,14 +174,14 @@ form {
  border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 8px;
   border: 1px;
-}
+} 
 
 .sm-card-txt {
   font-size: 80px;
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 10px;
-} */
+} 
 
 /* #coma {
   font-size: 30px;
