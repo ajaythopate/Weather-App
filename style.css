@@ -26,13 +26,9 @@ form {
   display: flex;
 }
 
-.time-box {
-  flex-basis: 10%;
-}
-
-.time-box h1 {
+/* .time-box h1 {
   text-align: left;
-}
+}  */
 .search-bx {
   width: 100%;
   height: 10px;
@@ -60,7 +56,7 @@ form {
 .search-btn {
   position: absolute;
   margin-left: 500px;
-  margin-top: 15px;
+  margin-top: 14px;
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   color:black;
@@ -72,7 +68,7 @@ form {
 }
 
 #current-time {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 500;
   color: #ffffff;
 }
@@ -88,13 +84,13 @@ form {
 .current-weather {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .current-weather-left {
   flex-basis: 40%;
   border: 1px ;
-  padding: 0.5px 25px;
-  height: 400px;
+  padding: 0.0px 25px;
+  height: 430px;
   box-shadow: rgba(19, 17, 17, 0.18) 0px 3px 4px;
   border-radius: 15px;
 }
@@ -106,14 +102,13 @@ form {
 #country-name,
 #state-name {
   display: inline-block;
-  font-size: 25px;
+  font-size: 35px;
   line-height: 1.5em;
-  font-weight: 500;
   color: #ffffff;
 }
 
 #timeDate {
-  font-size: 18px;
+  font-size: 30px;
   color: #ffffff;
   margin-top: 10px;
 } 
@@ -132,10 +127,12 @@ form {
   font-size: 50px;
   color: #ffffff;
   font-weight: 600;
+
 }
 
 .humidity-icon {
-    margin-left: 20px;
+    margin-left: 80px;
+  
 }
 
 

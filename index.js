@@ -1,6 +1,3 @@
-let data;
-let forceCastOutput;
-
 
 const inputeBox = document.getElementById("InputBox");
 const headTime = document.getElementById("current-time");
@@ -9,7 +6,7 @@ const cityName = document.getElementById("city-name");
 const stateName = document.getElementById("state-name");
 const dateTime = document.getElementById("timeDate");
 const logoImage = document.getElementById("logoImage");
-const humidity = document.getElementById("humidity-con");
+const humidity = document.getElementById("humidity-val");
 const windSpeed = document.getElementById("Wind");
 const rain = document.getElementById("rain");
 const temprature = document.getElementById("current-temp");
@@ -17,7 +14,7 @@ const weatherStatus = document.getElementById("weather-condition");
 const highTemp = document.getElementById("high-temp");
 const lowTemp = document.getElementById("low-temp");
 const sunRise = document.getElementById("sunrise");
-const Sunset = document.getElementById("sunset");
+const sunSet = document.getElementById("sunset");
 
 
 
@@ -54,8 +51,16 @@ const getData = async (event) => {
     weatherStatus.innerHTML = data.current.condition.text;
     logoImage.src = data.current.condition.icon;
     humidity.innerHTML = data.current.humidity;
+    console.log(humidity)
     windSpeed.innerHTML = data.current.wind_kph;
     rain.innerHTML = data.current.cloud;
+    highTemp.innerHTML = data.current.cloud;
+    lowTemp.innerHTML = data.current.cloud;
+    sunRise.innerHTML = data.current.cloud;
+    sunSet.innerHTML = data.current.cloud;
+
+
+
     logoImage.src = data.current.condition.icon;
 
 
