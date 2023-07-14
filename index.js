@@ -1,5 +1,5 @@
-// let data;
-// let forceCastOutput;
+let data;
+let forceCastOutput;
 
 
 const inputeBox = document.getElementById("InputBox");
@@ -9,26 +9,26 @@ const cityName = document.getElementById("city-name");
 const stateName = document.getElementById("state-name");
 const dateTime = document.getElementById("timeDate");
 const logoImage = document.getElementById("logoImage");
-const humidity = document.getElementById("humidity");
-const windSpeed = document.getElementById("wind");
+const humidity = document.getElementById("humidity-con");
+const windSpeed = document.getElementById("Wind");
 const rain = document.getElementById("rain");
 const temprature = document.getElementById("current-temp");
-const wetherstatus = document.getElementById("wether-condition");
+const weatherStatus = document.getElementById("weather-condition");
 const highTemp = document.getElementById("high-temp");
 const lowTemp = document.getElementById("low-temp");
 const sunRise = document.getElementById("sunrise");
-const sunset = document.getElementById("sunset");
+const Sunset = document.getElementById("sunset");
 
 
 
 
 const getData = async (event) => {
     event.preventDefault();
-    if (!inputeBox.value) {
-        alert("please Enter The City Name");
+    if (!inputBox.value) {
+        alert("please Enter The City Name:");
         return;
     }
-    const city = inputeBox.value;
+    const city = inputBox.value;
 
     // Fetch Details 
 
@@ -58,12 +58,5 @@ const getData = async (event) => {
     rain.innerHTML = data.current.cloud;
     logoImage.src = data.current.condition.icon;
 
-
-
-
-    highTemp.innerHTML = foreCastOutput.forecast.forecastday[1].day.maxtemp_c;
-    lowTemp.innerHTML = foreCastOutput.forecast.forecastday[1].day.mintemp_c;
-    sunRise.innerHTML = foreCastOutput.forecast.forecastday[3].astro.sunrise;
-    sunset.innerHTML = foreCastOutput.forecast.forecastday[3].astro.sunset;
 
 };

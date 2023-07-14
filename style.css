@@ -134,9 +134,12 @@ form {
   font-weight: 600;
 }
 
+.humidity-icon {
+    margin-left: 20px;
+}
 
 
-#humidity-icon {
+#humidity-con {
   font-size: 20px;
   color: #ffffff;
 }
@@ -177,17 +180,10 @@ form {
 } 
 
 .sm-card-txt {
-  font-size: 80px;
-  font-weight: 500;
+  font-size: 50px;
+  font-weight: 300;
   color: #ffffff;
   margin-bottom: 10px;
 } 
 
-/* #coma {
-  font-size: 30px;
-  font-weight: 500;
-  color: #ffffff;
-  margin-bottom: 10px;
-} */
 
- 
